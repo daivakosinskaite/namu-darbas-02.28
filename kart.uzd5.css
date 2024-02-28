@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+section {
+    padding: 0 100px;
+    background: url(./lake2.jpg);
+    background-size: 1400px 900px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+}
+.box{
+    position: relative;
+    margin-left: 600px;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 225, 225, .2);
+    box-shadow: 0 5px 15px rgb(0, 0, 5);
+    justify-content: center;
+    
+}
+h2 {
+    font-size: 50px;
+}
+div {
+    color: white;
+    font-weight: 600;
+    font-family: calibri;
+    
+}
+div :nth-child(2) {
+    color:rgb(73, 14, 14);
+}

@@ -1,0 +1,50 @@
+body {
+    background-image: url(./Emerald_lake.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: 50 50 0 0;
+    isolation: isolate;
+    
+}
+
+
+div {
+    box-sizing: border-box;
+    border: 2 px solid black;
+    background-color: rgb(56, 85, 104);
+    width: 450px;
+    height: 350px;
+    
+    
+}
+
+
+div, img {
+    float: left;
+    margin: 1rem;
+
+}
+.container2 {
+    box-sizing: border-box;
+    border: 2 px solid black;
+    background-color: rgb(56, 85, 104);
+    width: 180px;
+    height: 130px;
+    
+}
+
+
+.mazas {
+    float: left;
+    position: fixed;
+}
+
+body ::after {
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(223, 218, 219);
+    /* isolation: isolate; */
+    opacity: 0.1;
+}

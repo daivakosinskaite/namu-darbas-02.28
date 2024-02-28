@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+section {
+    padding: 0 100px;
+    background: url(./sunflowers.jpg);
+    background-size: 1400px 900px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: 50 50 0 0;
+    isolation: isolate;
+}
+/* .box{
+    position: relative;
+    margin-left: 600px;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 225, 225, .2);
+    box-shadow: 0 5px 15px rgb(0, 0, 5);
+    
+} */
+h1 {
+    font-size: 50px;
+    align-items: center;
+}
+
+body ::after {
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(223, 218, 219);
+    /* isolation: isolate; */
+    opacity: 0.2;
+
+}

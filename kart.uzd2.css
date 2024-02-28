@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 600px;
+    height: 50px;
+    background-color: beige;
+    
+}
+
+.box1 {
+    background-color: rgb(70, 186, 231);
+    text-align: center;
+}
+.box5, .box3, .box4 {
+    background-color: rgb(214, 156, 47);
+    border: 1px black;
+    width: 200px;
+}
+.box5 {
+    float: right;
+}
